@@ -1,0 +1,161 @@
+body {
+    font-family: Montserrat;
+}
+
+#title {
+    background-color: #FF4C68;
+    color: #fff;
+}
+.front-h1 {
+    font-family: 'Montserrat-black';
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h2 {
+    font-family: 'Montserrat-black'; 
+}
+h3 {
+    font-family: montserrat bold;
+}
+p {
+    color: #8f8f8f;
+}
+.container-fluid {
+    padding: 3% 15% 13%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar {
+    padding-bottom: 2.5rem;
+}
+.nav-item {
+    padding: 0px 18px;
+}
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat-light";
+}
+
+/* title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* features section */
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+
+}
+.featur-box {
+    padding: 5%;
+}
+.icon {
+    color: #ef8172;
+    padding: 5%;
+}
+.icon:hover {
+    color: #FF4C68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    font-family: "Montserrat-Light";
+    font-weight: bold;
+}
+.testimonials-img {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.press-img {
+    width: 15%;
+    padding: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.fa-arrow-circle-right  {
+    font-size: 40px;
+}
+.fa-arrow-circle-left {
+    font-size: 40px;
+}
+/* Pricing */
+
+#pricing {
+    text-align: center;
+}
+.pricing-card {
+    padding: 3% 3%;
+    padding-top: 15px;
+}
+
+#cta {
+    background-color: #FF4C68;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+.cta-text {
+    padding: 7%;
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.cta-btn {
+    margin: auto 15px;
+}
+#footer {
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 0px;
+}
+.ico {
+    margin: auto 5px auto 5px;
+}
+@media (max-width: 1022px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        padding-top: 3%;
+        width: 50%;
+    }
+    .container-fluid {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+}
+@media (max-width: 922px) {
+    .pricing-card{
+        padding: 30px;
+    }
+    .down {
+        padding-top: 15px;
+    }
+}
